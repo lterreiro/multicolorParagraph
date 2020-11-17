@@ -1,5 +1,13 @@
+section,
+button,
+input,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
 .amarelo {
-    color: yellow;
+    color: orange
 }
 
 .vermelho {
@@ -7,9 +15,23 @@
 }
 
 .back-amarelo {
-    background-color: yellow;
+    background-color: orange;
+    ;
 }
 
 .back-vermelho {
     background-color: red;
+}
+
+section {
+    border: 1px dotted violet;
+}
+
+section header {
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+section p {
+    margin-left: 10px;
 }

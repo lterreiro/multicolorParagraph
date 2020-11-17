@@ -7,8 +7,19 @@
 </head>
 
 <body>
-    <button id="addParagraph" onclick="addParagraph('paragrafos', true)">Adicionar</button>
-    <section id="paragrafos" />
+    <fieldset>
+        <legend>Ações</legend>
+        <button id="addParagraph" onclick="addParagraph('paragrafos', false)">Adicionar na seccao</button>
+        <button id="clearParagraph" onclick="limpar('paragrafos')">Limpar tudo</button>
+        <input type="checkbox" name="useBackground" value="Com background">
+        <label for="useBackground">Com background</label>
+    </fieldset>
+    <br>
+    <article>
+        <section id="paragrafos">
+            <header>Parágrafos</header>
+        </section>
+    </article>
 </body>
 
 </html>

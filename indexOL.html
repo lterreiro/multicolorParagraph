@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parágrafoso com OL</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+</head>
+
+<body>
+    <fieldset>
+        <legend>Ações</legend>
+        <button id="addParagraphList" onclick="addParagraphToList('paragrafosList', true)">Adicionar em OL</button>
+        <button id="clearParagraph" onclick="limpar('paragrafosList')">Limpar tudo</button>
+        <input type="checkbox" id="useBackground" name="useBackground" value="Com background">
+        <label for="useBackground">Com background</label>
+    </fieldset>
+    <br>
+    <article>
+        <section id="paragrafosOl">
+            <header>Paragrafos com OL</header>
+            <ol id="paragrafosList" />
+        </section>
+    </article>
+</body>
+
+</html>
